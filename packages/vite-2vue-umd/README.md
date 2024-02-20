@@ -1,5 +1,7 @@
 ## reproduction step
 
+issue: https://github.com/vitejs/vite/issues/15800
+
 ```
 1. cd ./demos/issues
 2. pnpm install
