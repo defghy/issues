@@ -3,7 +3,6 @@ import { resolve } from 'path'
 import { defineConfig, loadEnv, type UserConfig } from 'vite'
 import pluginVue2 from '@vitejs/plugin-vue2'
 import pluginVue2JSX from '@vitejs/plugin-vue2-jsx'
-import pluginBasicSsl from '@vitejs/plugin-basic-ssl'
 
 export default ({ mode }) => {
   const envs = loadEnv(mode, process.cwd(), '')
@@ -13,7 +12,6 @@ export default ({ mode }) => {
     plugins: [
       pluginVue2(),
       pluginVue2JSX(),
-      pluginBasicSsl(),
     ],
     define: {
 
